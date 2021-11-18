@@ -1,0 +1,25 @@
+.column{
+    float: left;
+    width:50%;
+}
+.row:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+.vertical {
+    border-left: 1px solid black;
+    height: 450px;
+    position:absolute;
+    left: 50%;
+}
+
+.vertical2 {
+    border-left: 1px solid black;
+    height: 450px;
+    position:absolute;
+    left: 50%;
+}
+.witteruimte {
+    column-gap:12em;
+}
