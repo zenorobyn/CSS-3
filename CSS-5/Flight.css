@@ -1,0 +1,29 @@
+article p {
+    font-size: 1.25em;
+    float: right;
+}
+
+article p img {
+    display: block;
+    float: left;
+    margin: 10px;
+}
+
+article {
+    margin: 10px;
+    width: 900px;
+}
+
+article:nth-child(even){
+    float: right;
+    border:solid;
+}
+
+article:nth-child(odd){
+    float: left;
+    border: solid;
+}
+
+h2 {
+    float: left;
+}
