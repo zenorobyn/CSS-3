@@ -1,0 +1,57 @@
+.light{
+    background-color: black;
+    height: 200px;
+    margin: 5px;
+    border: 5px;
+}
+.dark {
+    background-color: black;
+    height: 200px;
+    margin: 5px;
+    border: 5px;
+}
+
+div {
+    max-width: 100%;
+}
+
+figure {
+    background-color: black;
+    border-radius: 5px;
+    color: red;
+    margin: 0 0 25px 0;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+
+}
+
+@media screen and (min-width: 500px){
+}
+figure{
+    width: 80%;
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+@media screen and (min-width: 768px){
+    body{
+        background-color: blue;
+    }
+    figure{
+        width: 40%;
+        box-sizing: border-box;
+        margin: 5px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    body{
+        background-color: brown;
+    }
+    figure{
+        width: 20%;
+        box-sizing: border-box;
+        margin: 5px;
+    }
+}

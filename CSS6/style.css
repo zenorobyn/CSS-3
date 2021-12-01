@@ -1,0 +1,13 @@
+.light{
+    background-color: grey;
+    height: 200px;
+    margin: 5px;
+    border: 5px;
+}
+.dark {
+    background-color: darkgrey;
+    height: 200px;
+    margin: 5px;
+    border: 5px;
+}
+
