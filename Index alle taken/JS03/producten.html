@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Producten</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Producten</th>
+            <th>Prijs</th>
+            <th>Aantal</th>
+            <th>BTW</th>
+            <th>Subtotaal</th>
+        </tr>
+        <tr>
+            <td>Product 01</td>
+            <td id="prijs1">10 Eur</td>
+            <td><input id="aantal1" type="number" value="0"> </td>
+            <td id="btw1">6%</td>
+            <td id="sb_product1">sb 1</td>
+        </tr>
+        <tr>
+            <td>Product 02</td>
+            <td id="prijs2">15 Eur</td>
+            <td><input id="aantal2" type="number" value="0"> </td>
+            <td id="btw2">21%</td>
+            <td id="sb_product2">sb 2</td>
+        </tr>
+        <tr>
+            <td>Product 03</td>
+            <td id="prijs3">12.20 Eur</td>
+            <td><input id="aantal3" type="number" value="0"> </td>
+            <td id="btw3">21%</td>
+            <td id="sb_product3">sb 3</td>
+        </tr>
+        <tr>
+            <td colspan="4">totaal</td>
+            <td id="totaal">tot</td>
+        </tr>
+    </table>
+    <input id="btn" type="button" value="herbereken">
+<script type="text/javascript" charset="utf-8"
+        src="scripts/producten.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Demonstratie slider</title>
+    <link rel="stylesheet" href="styles/demo.css"/>
+</head>
+<body>
+<section>
+    <p>Open het console venster, versleep daarna de slider hieronder en kijk welke berichten er komen</p>
+    <input type="range" class="slider" value="50" min="0" max="100" />
+</section>
+<section>
+    <p>Een gekleurd blokje :</p>
+    <div class="colorDemo" />
+</section>
+<script type="text/javascript" charset="utf-8" src="scripts/demo.js"></script>
+<p><strong>Opdracht 1 vraag: Vergewis je ervan dat als je stopt met slepen, er op de console 2 meldingen komen voor de laatste
+    waarde.</strong> </p>
+<p> Het is duidelijk te zien na het verslepen van de balk dat de waarde telkens wordt uitgeprint.
+    Het is ook te zien bij de laatste waarde dat de waarde 2 keer wordt geprint, dit zie je aan het 2tje dat voor de output staat.</p>
+<p><strong>Opdracht 2 vraag: Waar wordt de event listener gekoppeld aan de slider</strong> </p>
+<p>De eventlister wordt aan 2 zaken gekoppeld namelijk aan een change en een input. Deze 2 zaken zijn gekoppeld aan dezelfde methode namelijk update.</p>
+<p> <strong>Waarom 2 soorten?</strong></p>
+<p>De methode document.getElementByClassName geeft een array terug, de kans bestaat dus dat er meerdere elementen die klasse naam hebben.
+    We gebruiken dus [0] om alleen het eerste element van de array te gebruiken.</p>
+<p><strong> Opdracht 3</strong></p>
+<p> Na het uitvoeren hebben de colorDemos en sliders een waarde, de waarden kan je zien bij de scope.
+    In beide arrays zitten telkens maar 1 waarde, dit komt omdat er telkens maar 1 element is met bijhorende klasse namen.
+    De elementen staan telkens logisch op de 0de positie van de array.
+    Het blokje wordt effectief pas rood gekleurd na de 11e regel.
+</p>
+</body>
+</html>
