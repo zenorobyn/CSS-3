@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="nl" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/invulformulier.css">
+    <title>invulformulier</title>
+</head>
+<body>
+    <form method="get">
+        <label>First name*: </label><input type="text" name="txtname" placeholder="Your first name"/>
+        <br>
+        <label>Last name*: </label><input type="text" name="txtname" placeholder="Your last name"/>
+        <br>
+        <label>Which sport do you train?</label>
+        <br>
+        <label>Running</label><input type="checkbox" name="Running"/>
+        <br>
+        <label>Swimming</label><input type="checkbox" name="Swimming"/>
+        <br>
+        <label>Rowing</label><input type="checkbox" name="Rowing"/>
+        <p>What is your gender?</p>
+        <input type="radio" name="Male" value="v"><label> Male</label>
+        <br>
+        <input type="radio" name="Female" value="v"><label> Female</label>
+        <br>
+        <label>Favorite movie: </label><input type="text" name="favMovie" placeholder=""/>
+        <br>
+        <label>Favorite quote: </label><input type="text" name="favQuote" placeholder="Write your favorite quote"/>
+        <br>
+        <label>Password*: </label><input type="password" name="password" placeholder=""/>
+        <br>
+        <label>Favorite food:</label>
+        <select size="1">
+            <option>Hamburgers</option>
+            <option>Tofu</option>
+            <option>Frieten</option>
+            <option>Bicky burger</option>
+            <option>Mexicano</option>
+            <option>Mammoet</option>
+        </select>
+        <br>
+        <input type="file">
+        <br>
+        <label>Email adress: </label><input name="email" type="email" placeholder="Enter your email adress" />
+        <br>
+        <label>Favorite site: </label><input name="site" type="url" placeholder="Enter the URL of your favorite site" />
+        <br>
+        <label>Favorite number between 1-10: </label><input name="FavNumber1-10" type="number" max="10" min="1"/>
+        <br>
+        <label>Favorite number between 11-1000: </label><input name="FavNumb11-1000" type="range" max="1000" min="11"/>
+        <br>
+        <label>When were your born? </label><input name="date of birth" type="date" placeholder="Dag/Maand/jaar"/>
+        <br>
+        <label>Belgium zip-code reg number*: </label><input name="zip-code" type="text" size="4" maxlength="4" placeholder="9999"/>
+        <br>
+        <label>Search for something: </label><input name="search" type="search"/>
+        <br>
+        <label>What is your favorite color: </label> <input name="FavColor"type="color"/>
+        <br>
+        <input type="submit" value="submit">
+        <input type="button" value="annuleer">
+    </form>
+<script type="text/javascript" charset="utf-8"
+        src="scripts/invulformulier.js"></script>
+</body>
+</html>
